@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import SIPComponent from '@/components/ui/SIPComponent'
 
 
 export default function Home() {
@@ -27,6 +28,8 @@ export default function Home() {
           </li>
         </ol>
         <Button variant="default">WealthWarp Button</Button>
+        <SIPComponent />
+
 
  
         <div className="flex gap-4 items-center flex-col sm:flex-row">
