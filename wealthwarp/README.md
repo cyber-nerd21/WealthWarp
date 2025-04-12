@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+README.txt 
 
-## Getting Started
+✅ Project Setup & Architecture
+Initialized the project using Next.js for building a fast and scalable frontend.
 
-First, run the development server:
+Integrated Supabase for authentication and database functionalities.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Created the foundational structure of the Next.js app inside the main project folder, following best practices for scalability and maintainability.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🧩 Folder Structure & Components
+Developed the landing page and feature-specific pages (page.tsx) within src/app/, structured with appropriate routing and layout.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Built a modular design system using reusable UI components inside src/components/ui/.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Ensured all components were cleanly imported and organized to promote reusability and clean code standards.
 
-## Learn More
+🔐 Authentication & Environment Setup
+Enabled Google OAuth authentication via Supabase.
 
-To learn more about Next.js, take a look at the following resources:
+Created and configured Google Cloud Console credentials and linked them to the Supabase project.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Stored sensitive API keys (Google and Supabase) in .env.local and ensured the file was added to .gitignore for security and version control best practices.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🗄️ Database Integration
+Designed and created Supabase tables to persist user interactions and data dynamically from various components in the application.
 
-## Deploy on Vercel
+Ensured secure and efficient communication with Supabase using a centralized client (lib/supabaseClient.tsx), which is imported and utilized across features.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+AI Integration
+Open AI api is used for deriving the conclusions and inferences.
+It is used to make visualizations of data and gather insights
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
