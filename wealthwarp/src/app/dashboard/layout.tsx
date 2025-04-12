@@ -20,12 +20,16 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
       <div className="w-64 bg-gradient-to-br from-green-500 to-blue-600 text-white flex flex-col p-4">
         <h2 className="text-2xl font-bold mb-8">WealthWarp 🧠</h2>
         <nav className="flex flex-col space-y-4">
+          
           <Link href="/dashboard" className="hover:text-yellow-400">🏠 Dashboard</Link>
+          <Link href="/dashboard/userform" className="hover:text-yellow-400">📝Fill Details</Link>
+          <Link href="/dashboard/analyse-spend" className="hover:text-yellow-400">🧾Expenses Tracker</Link>
           <Link href="/dashboard/simulation" className="hover:text-yellow-400">📈 Your Financial Future</Link>
-          <Link href="/dashboard/guru" className="hover:text-yellow-400">🧘 Finance Guru</Link>
+          <Link href="/dashboard/aiadvisor" className="hover:text-yellow-400">🧘 Finance Guru</Link>
           <Link href="/dashboard/what-if" className="hover:text-yellow-400">🤔 What If Scenario</Link>
-          <Link href="/dashboard/visualise" className="hover:text-yellow-400">📊 Visualise Journey</Link>
-          <Link href="/dashboard/time-travel" className="hover:text-yellow-400">⏳ Time Travel</Link>
+          <Link href="/dashboard/analysis" className="hover:text-yellow-400">📊 Visualise Journey</Link>
+          <Link href="/dashboard/behaviourinsights" className="hover:text-yellow-400">⏳ Time Travel</Link>
+          
         </nav>
         <button
           onClick={handleLogout}
