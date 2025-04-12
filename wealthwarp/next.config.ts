@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // No need for appDir in Next.js 13+ (enabled by default)
 };
 
 export default nextConfig;
