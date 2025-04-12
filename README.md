@@ -6,31 +6,55 @@ STEP 2. on landing page -> log in using google email id -> take you to the websi
 THE VIDEO LINK TO DEMO VIDEO WE UPLOADED ON GOOGLE DRIVE -> https://drive.google.com/file/d/1_7LdZEOzO_968-GoqXEi46MB8g5Fh3Ei/view?usp=sharing
 
 🧩** Dependencies**
+
 **Runtime**
+
 @radix-ui/react-checkbox ^1.1.5
+
 @radix-ui/react-label ^2.1.3
+
 @radix-ui/react-select ^2.1.7
+
 @radix-ui/react-slot ^1.2.0
+
 @supabase/auth-helpers-nextjs ^0.10.0
+
 @supabase/supabase-js ^2.49.4
+
 class-variance-authority ^0.7.1
+
 clsx ^2.1.1
+
 lucide-react ^0.487.0
+
 next 15.3.0
+
 openai ^4.93.0
+
 react ^19.0.0
+
 react-dom ^19.0.0
+
 recharts ^2.15.2
+
 tailwind-merge ^3.2.0
+
 tailwind-variants ^1.0.0
+
 tw-animate-css ^1.2.5
 
 **Development**
+
 @tailwindcss/postcss ^4
+
 @types/node ^20
+
 @types/react ^19
+
 @types/react-dom ^19
+
 tailwindcss ^4
+
 typescript ^5
 
 ✅ Project Setup & Architecture
