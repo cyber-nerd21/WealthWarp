@@ -1,4 +1,9 @@
 README.txt 
+" GUIDE TO RUNNING THE PROJECT "
+STEP 1.clone the repo -> cd wealthwarp ->  run npm dev -> GO TO http://localhost:3000
+STEP 2. on landing page -> log in using google email id -> take you to the website dashboard and side bar which has the feaature components 
+
+THE VIDEO LINK TO DEMO VIDEO WE UPLOADED ON GOOGLE DRIVE -> https://drive.google.com/file/d/1_7LdZEOzO_968-GoqXEi46MB8g5Fh3Ei/view?usp=sharing
 
 ✅ Project Setup & Architecture
 Initialized the project using Next.js for building a fast and scalable frontend.
